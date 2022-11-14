@@ -1,0 +1,11 @@
+<h2>Ask Your coach anything:</h2>
+  <form action="/answer" method="GET" data-turbo="false">
+    <div class="row g-2">
+    <div class="col-sm-7">
+      <input type="text" name="input" value="<%= params[:input] %>">
+    </div>
+    <div class="col-sm">
+      <input type="submit" class="btn btn-primary" value="Ask!">
+    </div>
+    </div>
+  </form>
